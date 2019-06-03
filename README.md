@@ -63,7 +63,7 @@ Your LinTO needs an unique serial number to get recognized by the server stack. 
 
 You're done !
 
-You can flash your SD card with this whole new image !
+You can flash your SD card with this whole new image ! Don't forget to expand your filesystem on the target Raspberry Pi device.
 
 ## Soundcard
 
