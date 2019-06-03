@@ -1,0 +1,37 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/arm-linux-gnueabihf/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/arm-linux-gnueabihf/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+
+
+# iceweasel autostart
+#...
+
+# kweb autostart
+# kweb -CKAVJHA+-zbhrqfpoklgtjneduwxyavcsmi#?!., http://localhost:2001/ &
+
+#fond d'ecran
+#feh --bg-scale /home/pi/static/booted.png
+
+# chromium autostart
+#@sed -i 's/"exited_cleanly": false/"exited_cleanly": true/' ~/.config/chromium/Default/Preferences
+#@chromium-browser --disable-session-crashed-bubble --disable-infobars --noerrdialogs --kiosk --incognito --disk-cache-dir=/home/pi/volatile --disk-cache-size=10485760 http://localhost:2001
+
+# various params
+xset s off
+xset -dpms
+xset s noblank
+xset s off -dpms

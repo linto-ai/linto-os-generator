@@ -1,0 +1,16 @@
+# This service is critical, enables the xclient update.
+[Unit]
+Description=Start net-version installer
+Requires=network.target
+After=local-fs.target remote-fs.target network.target
+
+[Service]
+Restart=always
+RestartSec=1s
+WorkingDirectory=/home/pi/netversion
+ExecStart=/usr/bin/node /home/pi/netversion/index.js
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target

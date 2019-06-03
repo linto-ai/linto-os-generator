@@ -1,0 +1,7 @@
+apps:
+  - script	: index.js
+    cwd		: /home/pi/linto-client
+    name	: linto-client
+    log_file	: /home/pi/logs/combined.outerr.log
+    out_file	: /home/pi/logs/out.log
+    error_file	: /home/pi/logs/err.log

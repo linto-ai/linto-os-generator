@@ -1,0 +1,12 @@
+[Unit]
+Description=linTO client daemon
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/linto-client/
+ExecStart=/usr/bin/node /home/pi/linto-client/index.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

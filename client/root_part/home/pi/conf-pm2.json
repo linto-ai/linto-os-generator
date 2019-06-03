@@ -1,0 +1,7 @@
+{
+  "apps": [{
+    "name": "linto-client",
+    "script": "index.js",
+    "cwd": "/home/pi/linto-client/"
+  }]
+}
