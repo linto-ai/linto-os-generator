@@ -11,6 +11,11 @@ This provides all necessary to install and run a LinTO demonstrator.
 
 You can use this tool to customize an existing ARM Linux image mounted as loopback device. Once "mounted and prepared" you can chroot into the image and work inside of it. You might want to apt-install some stuff using ARM apt repositories, you can also build and compile programs using ARM gcc... 
 
+### Prebuilt image
+Configured user : pi
+Configured password : pi
+Download latest .img in github releases tab
+
 
 ## Prerequisites of the host machine ##
 
