@@ -13,7 +13,9 @@ You can use this tool to customize an existing ARM Linux image mounted as loopba
 
 ### Prebuilt image
 Configured user : pi
+
 Configured password : pi
+
 Download latest .img in github releases tab
 
 
