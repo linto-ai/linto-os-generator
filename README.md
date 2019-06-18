@@ -16,7 +16,7 @@ Configured user : pi
 
 Configured password : pi
 
-Download latest .img in github releases tab
+Link for this prebuilt image will come fast. Watch for it.
 
 
 ## Prerequisites of the host machine ##
