@@ -139,7 +139,7 @@ do_check_and_resize() {
   echo "# check and resize partition"
   echo "##############################"
   #loop0
-  LOOP_ID=$(kpartx -avs ${NEWIMAGE} | grep -Eo '[0-9]' | head -1)
+  LOOP_ID=$(kpartx -avs ${NEWIMAGE} | grep -Eo '[0-9]+' | head -1)
   #check partition
   e2fsck -f /dev/mapper/loop${LOOP_ID}p2
   #resize partition
@@ -174,7 +174,7 @@ do_prepare_fs() {
   fi
 
   # Mounting image
-  LOOP_ID=$(kpartx -avs ${NEWIMAGE} | grep -Eo '[0-9]' | head -1)
+  LOOP_ID=$(kpartx -avs ${NEWIMAGE} | grep -Eo '[0-9]+' | head -1)
   mount /dev/mapper/loop${LOOP_ID}p2 ${MNT}
   mount /dev/mapper/loop${LOOP_ID}p1 ${BOOT}
 
