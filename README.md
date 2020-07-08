@@ -86,7 +86,6 @@ See : #lcd_rotate=2 in /boot/config.txt (inside chroot) or ./base/boot_part/conf
 
 ## Documentations ##
 
-* <https://enavarro.me/emuler-un-raspberry-pi-avec-qemu.html>
 * <https://docs.docker.com/engine/installation/linux/docker-ce/debian/#install-from-a-package>
 
 ## Notes ##
